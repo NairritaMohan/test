@@ -18,7 +18,7 @@ function setup(){
   runner.setCollider("rectangle",0,0,35,40)
   ground =createSprite(200,200,800,20);
   ground.shapeColor ='white';
-
+//ground added
    obstacle =createSprite(600,155,20,70);
    obstacle.shapeColor ='white';
 
