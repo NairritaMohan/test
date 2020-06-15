@@ -16,14 +16,13 @@ function setup(){
   //you can remove the below line if you dont want to see the green collider.
   runner.debug = true;
   runner.setCollider("rectangle",0,0,35,40)
-
   ground =createSprite(200,200,800,20);
   ground.shapeColor ='white';
 
    obstacle =createSprite(600,155,20,70);
    obstacle.shapeColor ='white';
 
-   edges = createEdgeSprites()
+   //edges = createEdgeSprites()
 
 }
 
